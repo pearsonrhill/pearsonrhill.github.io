@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>zPearsonz</title>
+<meta name="description" content="My first page">
+<meta name="keywords" content=" ">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+<link rel="stylesheet" href="/static/css/homepage.css">
+</head>
+<body>
+    <div class="titleimgbackground">
+    <img id="titleimg" src="/static/images/smile.jpg" alt="">
+    </div>
+
+    <!-- Navbar -->
+    <div id="navbar">
+        <a style="display: flex;">
+            <!-- id="openbun" -->
+            <span id="openbun" onclick="openNav()" style="margin-top:-2vw;">&#9776;</span>
+            <img onclick="openNav()" id="pfp" src="/static/images/rickInCar.png" alt="lol" style="cursor:pointer">
+        </a>
+    </div>
+
+    <!-- Side Nav -->
+
+    <!-- <div class="sidenav"> -->
+    <!-- <div id="mySidenav"> -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <img id="sidepfp" src="/static/images/mellypfp.jpg" alt="lol">
+
+        <a href="#home_">Home</a>
+        <button class="dropdown-btn">Coding<i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-container">
+                <a style="letter-spacing: 1px;"href="#coding_">Coding:</a>
+                <a href="#fun_">&emsp;&emsp;Fun</a>
+                <a href="#clones_">&emsp;&emsp;Clones</a>
+            </div>
+        <a href="#athlete">Athlete</a>
+    </div>
+
+
+
+<!--  ------------------------------------------- -->
+<br><br><br><br>
+    <div data-aos="zoom-in" data-aos-duration="3000">
+        <div>
+            
+            <div id="home_"></div> <br>
+            <h1 class="htitles">¿Qué es esta página web?</h1>        
+        </div>
+
+        <br><br>
+        
+        <div class="box effect1" id="flex-container1">
+            <!-- Box 1 --><div>
+                    <div id="paginatext">
+                        <div id="clip1"></div><div id="clip2"></div>
+                        <video class="kaidancing" controls autoplay muted>
+                            <source src="static/videos/Kaidancing.mp4" >
+                    </div>
+                    <div id="spanishb">This is a page was created for fun and to learn about code. So you may see cool, funny, or weird things. This website was coded myself. I did have to refer to 
+                        <div id="popupword" class="popup" onclick="schoolPopup()">w3school
+                            <span class="popuptext" id="schoolPopup"><a id="w3school" href="https://www.w3schools.com/" target="_blank">https://www.w3schools.com/</a></span></div>, but no tutorial was used.
+                    The website is a continuous work in progress and I hope to continue working on it. So in the mean time, have fun and explore! <br>Press me: <div id="popupword" class="popup" onclick="popup()">😁
+                        <span class="popuptext" id="smiliepopup">Click the ever changing logo images to open the Sidebar!<br>&nbsp;- Close it first &nbsp;:)</span></div></div>
+                </div>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br> <!--  ------------------------------------------- -->
+
+
+
+
+    <div>
+        <div id="coding_"></div> <br>
+        <h1 class="htitles" data-aos="zoom-out" data-aos-duration="2000">Coding</h1>
+        <br>
+        <h2 class="subtitles" id="fun_" data-aos="fade-in" data-aos-duration="2000">Fun</h2>
+
+        <div class="flex-container2" data-aos="flip-right" data-aos-duration="1000">
+
+            <!-- BOX 1 -->
+            <div>
+                <div class="hover">
+                    <div class="screamflex">
+                        <a class="boxlinks" href="https://www.youtube.com/channel/UCNC9ULuGJiy59ioEOU4VLfg" target="_blank"><img class="screamfleximg" src="/static/images/curiousPlugSS.png" alt="curiousPlug"></a> 
+                        <div class="text">
+                            <div class="texttitle">Automated Youtube Channel</div>
+                            <div class="textsub">By Pearson</div> 
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <!-- BOX 2 -->
+            <div>
+                <div class="hover">
+                    <div class="screamflex">
+                        <a class="boxlinks" href="https://www.tiktok.com/@twitchexclusive" target="_blank"><img class="screamfleximg" src="/static/images/twitchexclusiveSS.png" alt="twitchexclusive"></a> 
+                        <div class="text">
+                            <div class="texttitle">Automated Tiktok Page</div>
+                            <div class="textsub">By Pearson</div> 
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+        <div class="flex-container2" data-aos="flip-right" data-aos-duration="1000">
+
+            <!-- BOX 3 -->
+            <div>
+                <div class="hover">
+                    <div class="screamflex">
+                        <a class="boxlinks" href="codeTyper/" target="_blank"><img class="screamfleximg" src="static/images/codetyperSS.png" alt="codeTyper"></a> 
+                        <div class="text">
+                            <div class="texttitle">Code Typer</div>
+                            <div class="textsub">By Pearson</div> 
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <!-- BOX 4 -->
+            <div>
+                <div class="hover">
+                    <div class="screamflex">
+                        <a class="boxlinks" href="calculator/" target="_blank"><img class="screamfleximg" src="static/images/calculatorSS.png" alt="Calculator"></a> 
+                        <div class="text">
+                            <div class="texttitle">Custom Calculator</div>
+                            <div class="textsub">By Pearson</div> 
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        
+        <div class="flex-container2" data-aos="flip-left" data-aos-duration="1000">
+            <!-- BOX 5 -->
+            <div>
+
+                <div class="hover">
+                    <div class="screamflex">
+                        
+                        <a class="boxlinks" href="scrapeTube/" target="_blank"><h3 style="margin-bottom: -.1vw; color: black; text-decoration: none;">ScrapeTube</h3> <img id="scrapImgId" class="screamfleximg" src="static/images/scrapTubeSS3.png" alt="ScrapTube"></a> 
+                        <div id="auth" class="text">
+                            <div class="texttitle">ScrapeTube</div>
+                            <div class="textsub">By Pearson</div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- BOX 6 -->
+            <div>2</div>
+        </div>
+
+
+
+
+        <br><br>
+        <div id="clones_"></div>
+
+        <h2 class="subtitles" data-aos="fade-in" data-aos-duration="2000">Clones</h2> <!-- Youtube page Rick and Morty & boondocks & podcast & albums fav(Than also create a selector where it tell you what album to listen to it randomly selects ablum + maybe genre)-->
+        <div>
+        <div class="flex-container3" data-aos="zoom-in" data-aos-duration="1000">
+            <!--BOX 1-->
+            <div>
+                <div class="hover">
+                    <div class="screamflex">
+                        <a class="boxlinks" href="scream/" target="_blank"><img class="screamfleximg" src="/static/images/screamSS.png" alt="Scream To The World"></a> 
+                        <div class="text">
+                            <div class="texttitle">Scream To The World</div>
+                            <div class="textsub">By Pearson</div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--BOX 2-->
+            <div>
+                <div class="hover">
+                    <div class="screamflex">
+                        <a class="boxlinks" href="sportNotes/" target="_blank"><img class="screamfleximg" src="/static/images/sportNotes.jpg" alt="Sticky Notes"></a> 
+                        <div id="auths" class="text">
+                            <div class="texttitle">Sticky Notes</div>
+                            <div class="textsub">By Pearson</div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-container3">
+            <!--BOX 3-->
+            <!-- <div></div> -->
+
+            <!-- Box 4 -->
+            <!-- <div></div> -->
+        </div>
+        </div>
+        <br>
+        <br>
+   
+   
+    </div>
+
+
+</div>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="/static/scripts/homepage.js"></script>
+</body>
+</html>
+<!-- Modeled: https://playables.net/ -->
+
+<!-- fix nav stick -->
+<!-- pfp -->
