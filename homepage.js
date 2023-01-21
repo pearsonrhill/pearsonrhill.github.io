@@ -24,30 +24,15 @@ function stickyy() {
 function openNav() {
 
   navbar.style.display = "none"
-
   sideNav = document.getElementById("mySidenav");
-  // sideNav.style.animation = "out 3s forwards;"; 
-  // sideNav.style.width = "250px";
   sideNav.style.display = "block"
 }
 
 function closeNav() {
-  // sideNav = document.getElementsByClassName('sidenav');
-  // sideNav.style.display = "none"
 
   side = document.getElementById("mySidenav");
-  // side.style.width = "0px";
   side.style.display = "none";
-
   navbar.style.display = "block"
-
-  // sideNav.style.width = "0px";
-
-  // sideNav.style.animation = "out 3s forwards;";
-  // sideNav.style.backgroundColor = "pink;";
-  // document.getElementById("mySidenav").style.backgroundColor = "pink;";
-  
-  
   
 }
 
@@ -80,7 +65,7 @@ function RamdomPhotos(){
        
         (function() {
           var rotator = document.getElementById('pfp'); //get the element
-            var dir = "/static/images/"
+            var dir = ""
           var delayInSeconds = 3;                           //delay in seconds
              var num = 0;                                      //start number
              var len = photos.length;                             //limit
